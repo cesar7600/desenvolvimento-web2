@@ -1,0 +1,8 @@
+section{
+    border: 1px solid black;
+    max-width: 500px;
+    margin: 0;
+    background-image: url('foto\do\Waffle.jpg') no-repeat center/cover;
+    box-shadow: 5px 5px 10px rgb(185, 157, 214)
+
+}
