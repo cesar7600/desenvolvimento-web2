@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font: white;
+    --bgMenu: #333;
+    --bgBody: #f1f1f1;
+    --btHover: #aaa;
+}
+
+label[for="btnMenu"] {
+    display: none;
+    height: 50px;
+    width: 100%;
+    background-color: var(--bgMenu);
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    line-height: 50px;
+    color: var(--font);
+    display: none;
+}
+.active {
+    display: flex;
+}
+nav {
+    display: flex;
+    background-color: var(--bgMenu);
+    flex-direction: row;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--font);
+    padding: 16px;
+    min-width: 120px;
+    text-align: center;
+    border: 1px solid red;
+    flex: 1;
+}
+
+nav a:hover {
+    background-color: var(--btHover);
+}
+.row {
+    display: flex;
+    margin-bottom: 10px;
+}
+input[type='text'], input[type='email']{
+    border-radius: 4px;
+    border: 1px solid var(--bgMenu);
+    width: 100%;
+    padding: 12px;
+    
+}
+#test div {
+    border: 1px solid black;
+}
+@media (max-width: 800px){
+    label[for=]
+}
