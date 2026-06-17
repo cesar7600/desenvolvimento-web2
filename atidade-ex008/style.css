@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+:root {
+    --front:white;
+    --bgMenu: rgb(88, 80, 161);
+    --bgBody: rgb(133, 59, 59);
+    --btHover: black;
+}
+label[for="btnMenu"] {
+    display: none;
+    height: 50px;
+    width: 100px;
+    background-color: var(--bgMenu);
+    cursor: pointer;
+}
+nav {
+    display: flex;
+    background-color: var(--bgMenu);
+    flex-direction: row;
+}
