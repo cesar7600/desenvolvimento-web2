@@ -17,11 +17,11 @@ label[for="btnMenu"] {
     width: 100%;
     background-color: var(--bgMenu);
     cursor: pointer;
-    justify-content: center;
-    text-align: center;
-    line-height: 50px;
-    color: var(--font);
-    display: none;
+    
+    
+    
+    
+    
 }
 .active {
     display: flex;
@@ -61,4 +61,7 @@ input[type='text'], input[type='email']{
 }
 @media (max-width: 800px){
     label[for=]
+}
+input button {
+    
 }
