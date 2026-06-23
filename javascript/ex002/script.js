@@ -1,8 +1,9 @@
-let x = 2;
-let y = 5;
-let resuldado = x + y;
+var x = 2;
+var y = 5;
+var resuldado = x + y;
 console.log(`A soma de x y é ${resuldado}`)
-let resuldado =
+var resuldado = x - y;
+console.log (`A subtracao de x y`)
 let resuldado =
 let resuldado =
 let resuldado =
